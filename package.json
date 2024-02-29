@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "eslint": "^8.57.0"
   }
 }
