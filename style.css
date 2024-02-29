@@ -57,16 +57,39 @@ body {
 .label {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.6rem;
+    font-size: .6rem;
     color: hsl(200, 100%, 20%)
 }
 
 .value-sub-info {
     font-weight: lighter;
-    font-size: 0.75rem;
+    font-size: .75rem;
 }
 
 .blurred {
     filter: blur(3px);
     overflow: hidden;
+}
+
+.day-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 75px);
+    gap: .5rem; 
+    justify-content: center;
+    padding: 1rem;
+}
+
+.day-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid hsl(200, 100%, 10%);
+    border-radius: .25rem;
+    padding: .25rem;
+}
+
+.day-card-day {
+    font-size: .75rem;
+    color: hsl(200, 100%, 20%);
+    margin-top: .5rem;
 }
